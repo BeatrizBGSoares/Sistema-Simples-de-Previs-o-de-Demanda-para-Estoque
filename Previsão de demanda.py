@@ -30,7 +30,7 @@ class PrevisaoDemanda:
         for _ in range(meses):
             previsao = self.calcular_media_movel(periodo=3)
             previsoes.append(previsao)
-            self.vendas_historicas.append(previsao)  # Simula que a previsão foi realizada
+            self.vendas_historicas.append(previsao)  
         return previsoes
 
     def exibir_previsao(self, meses=3):
